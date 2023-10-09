@@ -11,12 +11,3 @@ This is a FastAPI project that interacts with the Wikipedia API to fetch page su
 - `main.py`: This file contains a FastAPI application that returns jokes using the Pyjokes library. It defines the routes for the application and the logic for fetching the jokes.
 
 - `wikiRequest.py`: This file contains a FastAPI application that uses the Wikipedia API to fetch page summaries, search for page titles, and fetch related pages. It uses the requests library to send HTTP requests to the Wikipedia API.
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-What things you need to install the software and how to install them:
-

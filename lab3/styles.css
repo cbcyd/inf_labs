@@ -10,7 +10,7 @@ a {
 }
 
 a:hover {
-    color: #ffa07a; /* This changes the color of the link when you hover over it */
+    color: #0073ff; /* This changes the color of the link when you hover over it */
 }
 
 .container {
@@ -62,7 +62,7 @@ a:hover {
 }
 
 #toggleLabs:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.13);
     box-shadow: 0 0 10px rgba(255,255,255,0.2);
 }
 

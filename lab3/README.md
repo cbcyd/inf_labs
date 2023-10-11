@@ -2,6 +2,8 @@
 
 This project contains HTML, CSS, and JavaScript files that create a simple student portfolio website.
 
+[This site](https://cbcyd.github.io/inf_labs/) is hosted on Github Pages.
+
 ## Files
 
 ### `index.html`
@@ -15,3 +17,4 @@ This file contains the CSS styles for the portfolio. It defines styles for the b
 ### `main.js`
 
 This JavaScript file adds interactivity to the portfolio. It contains an event listener for the "Show/Hide Labs" button that toggles the visibility of the lab descriptions when the button is clicked.
+

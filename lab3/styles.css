@@ -4,6 +4,15 @@ body {
     font-family: Arial, sans-serif;
 }
 
+a {
+    color: #5e8eff; /* You can change this to any color you prefer */
+    text-decoration: none; /* This removes the underline */
+}
+
+a:hover {
+    color: #ffa07a; /* This changes the color of the link when you hover over it */
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -29,31 +38,40 @@ body {
 .info h1, .labs h2 {
     margin: 0 0 10px 0;
     padding: 0;
+    color: #FFFFFF;
 }
 
 .info p, .labs p {
     margin: 0 0 10px 0;
     padding: 0;
+    color: #FFFFFF;
 }
 
 #toggleLabs {
-    background: #fff;
-    color: #000;
-    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
     margin-bottom: 20px;
+    transition: all 0.3s ease;
+    font-size: 1.2em;
+    font-weight: bold;
+    backdrop-filter: blur(10px);
 }
 
 #toggleLabs:hover {
-    background: #ccc;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
 }
 
 .lab {
     margin-bottom: 20px;
+    color: #FFFFFF;
 }
 
 .lab:last-child {
     margin-bottom: 0;
+    color: #FFFFFF;
 }

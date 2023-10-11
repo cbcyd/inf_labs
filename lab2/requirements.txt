@@ -1,6 +1,0 @@
-fastapi
-pydantic
-wikipedia-api
-requests
-pyjokes
-wikipedia

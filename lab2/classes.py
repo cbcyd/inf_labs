@@ -6,7 +6,6 @@ class Item(BaseModel):
     title: str
     url: str
     summary: str
-    #text: str
 
 class Wiki(BaseModel):
     title: str

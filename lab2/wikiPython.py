@@ -15,7 +15,7 @@ class Item(BaseModel):
 class Wiki(BaseModel):
     title: str
 
-@app.get("/path/{title}")
+@app.get("/path/{title}") 
 async def with_path(title: str):
     page_py = wiki_wiki.page(title)
     #wiki = Wiki(title=page_py.title, summary=page_py.summary, text=page_py.text)

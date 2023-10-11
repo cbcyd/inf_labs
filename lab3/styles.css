@@ -1,0 +1,59 @@
+body {
+    background: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.info, .labs {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.info h1, .labs h2 {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.info p, .labs p {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+#toggleLabs {
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#toggleLabs:hover {
+    background: #ccc;
+}
+
+.lab {
+    margin-bottom: 20px;
+}
+
+.lab:last-child {
+    margin-bottom: 0;
+}

@@ -1,23 +1,17 @@
-# Student Portfolio
+# Lab3
 
-## Description
-
-This project is a simple student portfolio website. It showcases the student's labs, provides links to their GitHub and Telegram, and allows the labs section to be shown or hidden.
+This project contains HTML, CSS, and JavaScript files that create a simple student portfolio website.
 
 ## Files
 
-### index.html
+### `index.html`
 
-This is the main HTML file for the project. It contains the structure of the web page, including a container for the student's information and labs. The labs can be toggled to show or hide using a button.
+This file contains the HTML structure of the portfolio. It includes a container with personal information and a section for lab descriptions. There is also a button to toggle the visibility of the lab descriptions.
 
-### styles.css
+### `styles.css`
 
-This file contains all the styles used in the project. It defines the look and feel of the web page, including the color scheme, font, and layout of the elements. It also includes styles for the show/hide labs button and the labs themselves.
+This file contains the CSS styles for the portfolio. It defines styles for the body, container, info section, labs section, and individual lab descriptions. It also includes styles for the "Show/Hide Labs" button and its hover state.
 
-### main.js
+### `main.js`
 
-This is the JavaScript file. It contains the functionality for the show/hide labs button. When the button is clicked, it checks the current display status of the labs and toggles it.
-
-## Usage
-
-To use this project, simply open the index.html file in a web browser. You can click the "Show/Hide Labs" button to display or hide the labs.
+This JavaScript file adds interactivity to the portfolio. It contains an event listener for the "Show/Hide Labs" button that toggles the visibility of the lab descriptions when the button is clicked.

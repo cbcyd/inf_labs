@@ -1,17 +1,17 @@
-# Lab3
+# Introduction to Information Technology Labs
 
-This project contains HTML, CSS, and JavaScript files that create a simple student portfolio website.
+This repository contains lab assignments for the course "Introduction to Information Technology". Each lab focuses on a different aspect of IT, providing practical experience and understanding of key concepts.
 
-## Files
+## Lab 1: Python Installation
 
-### `index.html`
+The first lab focuses on setting up a Python development environment. This includes installing Python, setting up a code editor, and running a simple Python script.
 
-This file contains the HTML structure of the portfolio. It includes a container with personal information and a section for lab descriptions. There is also a button to toggle the visibility of the lab descriptions.
+## Lab 2: FastAPI
 
-### `styles.css`
+The second lab introduces FastAPI, a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints. In this lab, we explore the basics of creating a FastAPI application.
 
-This file contains the CSS styles for the portfolio. It defines styles for the body, container, info section, labs section, and individual lab descriptions. It also includes styles for the "Show/Hide Labs" button and its hover state.
+## Lab 3: Portfolio Website
 
-### `main.js`
+The third lab involves creating a portfolio website using HTML, CSS, and JavaScript. This lab provides hands-on experience with web development basics and allows for personal creativity in designing a personal portfolio.
 
-This JavaScript file adds interactivity to the portfolio. It contains an event listener for the "Show/Hide Labs" button that toggles the visibility of the lab descriptions when the button is clicked.
+Please refer to the individual lab folders for specific instructions and resources for each lab.

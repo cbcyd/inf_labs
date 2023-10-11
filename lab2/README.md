@@ -1,3 +1,5 @@
+# Lab2
+
 This is a FastAPI project that interacts with the Wikipedia API to fetch page summaries, search for page titles, and fetch related pages.
 
 ## File Descriptions

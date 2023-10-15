@@ -5,12 +5,12 @@ body {
 }
 
 a {
-    color: #5e8eff; /* You can change this to any color you prefer */
-    text-decoration: none; /* This removes the underline */
+    color: #5e8eff; 
+    text-decoration: none;
 }
 
 a:hover {
-    color: #0073ff; /* This changes the color of the link when you hover over it */
+    color: #0073ff; 
 }
 
 .container {

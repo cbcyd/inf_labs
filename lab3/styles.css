@@ -71,7 +71,33 @@ a:hover {
     color: #FFFFFF;
 }
 
-.lab:last-child {
-    margin-bottom: 0;
+.repo-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s ease;
+  }
+
+  .repo-card {
+    margin-bottom: 10px;
     color: #FFFFFF;
-}
+  }
+
+  .repo-card:hover {
+    background: rgba(255, 255, 255, 0.13);
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+  }
+
+
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem 1rem;
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.1);
+  }

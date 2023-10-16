@@ -5,15 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="git.css">
+    <script src="git.js"></script>
+
 </head>
 <body>
     <div class="container">
+        <h2
+          id="projects"
+          class="mob-h2 page-scroll"
+          style="font-size: 36px; font-weight: 700; margin-top: 30px"
+        >
+          <span class="low-highlight-cyan">Info</span>
+        </h2>
         <div class="info">
             <h1>Anisimov Vasiliy</h1>
             <p>Nickname: <a href="https://t.me/cbcyd">@cbcyd</a></p>
             <p>GitHub: <a href="https://github.com/cbcyd">Cbcyd</a></p>
             <p>Age: 18</p>
         </div>
+        <h2
+          id="projects"
+          class="mob-h2 page-scroll"
+          style="font-size: 36px; font-weight: 700; margin-top: 30px"
+        >
+          <span class="low-highlight-cyan">Labs</span>
+        </h2>
         <div class="labs">
             <button id="toggleLabs">Show/Hide Labs</button>
             <div id="labsContent" style="display: none;">
@@ -41,7 +58,27 @@
                     </h2>                    
                     <p>The third lab involves creating a portfolio website using HTML, CSS, and JavaScript. This lab provides hands-on experience with web development basics and allows for personal creativity in designing a personal portfolio.</p>
                 </div>
+                
             </div>
+        </div>
+        <h2
+          id="projects"
+          class="mob-h2 page-scroll"
+          style="font-size: 36px; font-weight: 700; margin-top: 30px"
+        >
+          <span class="low-highlight-cyan">Projects</span>
+        </h2>
+        <div class="projects" data-aos="fade-up" data-aos-duration="1500">
+          <div class="repo-card" data-repo="cbcyd/inf_labs"></div>
+          <div class="repo-card" data-repo="cbcyd/kib_labs"></div>
+          <div
+            class="repo-card"
+            data-repo="cbcyd/STB"
+          ></div>
+          <div
+            class="repo-card"
+            data-repo="cbcyd/cbcyd.github.io"
+          ></div>
         </div>
     </div>
     <script src="main.js"></script>

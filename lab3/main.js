@@ -6,3 +6,4 @@ document.getElementById('toggleLabs').addEventListener('click', function() {
         labsContent.style.display = 'none';
     }
 });
+
